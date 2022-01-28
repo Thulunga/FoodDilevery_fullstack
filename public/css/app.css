@@ -5,31 +5,62 @@ body {
 }
 
 nav li:last-child a {
-  background: #2e8503;
+  background: #2d7709;
 }
 nav li:last-child a:hover {
-  background: #8ce063;
+  background: #ff89ef;
 }
 
 nav li a {
   transition: all 0.3s ease-in-out;
 }
 nav li a:hover {
-  color: #2e8503;
+  color: #2d7709;
   font-size: larger;
 }
 
+section.hero {
+  background: #d7facc;
+}
+
 .size {
-  background: #edb7e4;
+  background: #d7facc;
 }
 
 .add-to-cart {
-  border: 2px solid #2e8503;
-  color: #2e8503;
+  border: 2px solid #2d7709;
+  color: #2d7709;
   transition: all 0.3s ease-in-out;
 }
 .add-to-cart:hover {
-  background: #2e8503;
+  background: #2d7709;
   border-color: #fff;
   color: #fff;
+}
+
+.btn-primary {
+  background: #2d7709;
+}
+.btn-primary:hover {
+  background: #ff89ef;
+  transition: all 0.3s ease-in-out;
+  color: #232323;
+}
+
+section.cart {
+  background: #d7facc;
+}
+section.cart .amount {
+  color: #2d7709;
+}
+
+section.login {
+  background: #d7facc;
+  min-height: calc(100vh - 86px);
+}
+section.login a {
+  color: #2d7709;
+}
+section.login a:hover {
+  color: #ff89ef;
 }

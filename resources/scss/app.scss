@@ -20,6 +20,9 @@ nav li a {
         font-size: larger;
     }
 }
+section.hero {
+    background: $secondary;
+}
 
 .size{
     background: $secondary;
@@ -32,5 +35,30 @@ nav li a {
         background: $primary;
         border-color: $pure;
         color: $pure;
+    }
+}
+.btn-primary{
+    background: $primary;
+    &:hover{
+        background: $primary-hover;
+        transition: $smooth;
+        color: $dark;
+    }
+}
+
+section.cart {
+    background: $secondary;
+    .amount {
+        color: $primary;
+    }
+}
+section.login{
+    background: $secondary;
+    min-height: calc(100vh - 86px);
+    a {
+        color: $primary;
+        &:hover {
+            color: $primary-hover;
+        }
     }
 }
